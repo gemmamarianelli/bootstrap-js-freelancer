@@ -91,18 +91,18 @@
         
     <footer>
         <h1>WANT AN OFFER?</h1>
-    <form class="row g-3" onsumbit="Element(event)" >
+    <form class="row g-3" onsumbit="Element(event)" id="form" >
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Frist Name</label>
-          <input type="fristname" class="form-control" id="inputname">
+          <input type="text" class="form-control" id="inputname">
         </div>
         <div class="col-md-6">
           <label for="input" class="form-label">Last Name</label>
-          <input type="lastname" class="form-control" id="inputLastName">
+          <input type="text" class="form-control" id="inputLastName">
         </div>
         <div class="col-12">
           <label for="inputEmail" class="form-label">Email Address</label>
-          <input type="email" class="form-control" id="inputEmail" >
+          <input type="text" class="form-control" id="inputEmail" >
         </div>
         <div class="col-12">
           <label for="inputHours" class="form-label">Hour requested<label>
@@ -115,9 +115,9 @@
         <div class="col-md-4">
           <label for="inputWork" class="form-label">Type of work</label>
           <select id="inputWork" class="form-select">
-            <option selected>Front-end </option>
-            <option selected>Back-end </option>
-            <option selected> </option>
+            <option value="1">Front-end </option>
+            <option value="2">Back-end </option>
+            <option value="3"> </option>
             
           </select>
         </div>
@@ -129,7 +129,7 @@
           </div>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <button type="submit" id= button class="btn btn-primary">Sign in</button>
         </div>
       </form>
     </footer>
