@@ -1,4 +1,51 @@
-main{
-    background-color: cornflowerblue;
+header {
+    background-color: aqua;
+    text-align: center;
+
 }
 
+
+footer{
+    background-color:darkcyan;
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;
+}
+h4{
+    margin-bottom: 20px;
+}
+
+.container{
+    background-color: black;
+    text-align: center;
+}
+
+h3{
+    color: white;
+}
+h5{
+    color: white;
+}
+.h7{
+    text-align: center;
+    color: white;
+}
+.testa{
+    background-color: black;
+    color: aqua;
+    
+}
+button{
+    background-color: gold;
+}
+h6{
+    text-align: end;
+}
+p{
+    text-align: start;
+}
+main{
+    margin: 50px;
+}
