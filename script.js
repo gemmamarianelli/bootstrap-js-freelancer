@@ -16,15 +16,30 @@ if(sconto !== sconti){
     console.log("non fa parte dei codici sconto");
 }
 };
-onclick = "calcoloSconti"
 
+function submitForm(event){
+    event.preventDefault();
 
-function lavoro(lavoro, ore){
-    switch(){
-
-    }
+    let button =document.getElementById("button").addEventListener("click", calcololavoro, calcoloSconti);
 }
 
 
+function calcololavoro(lavoro, ore){
+   let prezzo = ore
+   
+    switch(lavoro){
+case 'Backend':
+prezzo *= 20.50;
+break;
 
 
+case 'Frontend' :
+prezzo *= 15.30;
+break;
+
+case 'Analisi':
+prezzo*=33.60;
+    }
+    if(sconti.includes(sconto)) prezzo *=0.25;
+    console.log(prezzo);
+};
